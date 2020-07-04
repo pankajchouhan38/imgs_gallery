@@ -1,0 +1,49 @@
+body,html{
+    height: 100%;
+}
+body{
+    background: url(fam/wal6.jpg);
+    /* background-size: contain; */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    height: 100%;
+}
+.pad{
+    font-family: 'Roboto Slab', serif;
+    margin-top: 30%;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    color: white;
+    background-color: rgba(0,0,0,0.1);
+}
+.navbar{
+    background-color: #030428;
+}
+#nest{
+    /* display: block; */
+    color: #090B54;
+    font-size: 2rem;
+    margin-left: 24%;
+    margin-right: 22%;
+    text-align: center;
+}
+@media screen and (max-width: 995px) {
+    .pad {
+      margin-top: 35%;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    .pad {
+      margin-top: 40%;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .pad {
+      font-size: 1.125rem;
+      margin-top: 60%;
+    }
+  }

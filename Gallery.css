@@ -1,0 +1,33 @@
+.navbar{
+    background-color: #030428;
+}
+h1{
+    margin-top: 80px;
+    color: #030428;
+}
+.row{
+    background-color: #C0CCBF;
+    margin-top: 50px;
+
+}
+body{
+    background-color: #C0CCBF;
+}
+.img-fluid{
+    border: 1px solid #030428;
+}
+.col-lg-4{
+    margin-bottom: 80px;
+}
+.display-1{
+    font-size: 4rem;
+    font-family: 'Roboto Slab', serif;
+
+}
+@media screen and (max-width: 600px) {
+    .display-1 {
+      font-size: 3rem;
+    font-family: 'Roboto Slab', serif;
+
+    }
+  }
